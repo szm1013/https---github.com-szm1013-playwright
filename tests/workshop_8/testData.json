@@ -1,0 +1,22 @@
+[
+{
+    "testName": "Test Case 1 - Fill Input",
+    "firstName": "John",
+    "age": "30",
+    "isStudent": true,
+    "expectedFirstName": "John",
+    "expectedAge": "30", 
+    "expectedIsStudent": "Yes"
+}
+,
+{
+    "testName": "Test Case 2 - Negative Test",
+    "firstName": "Alice",
+    "age": "21",
+    "isStudent": false,
+    "expectedFirstName": "Alice",
+    "expectedAge": "21", 
+    "expectedIsStudent": "No"
+}
+
+]
