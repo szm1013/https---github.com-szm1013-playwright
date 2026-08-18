@@ -14,7 +14,7 @@ test.skip('Screenshot', async ({page}) => {
     await page.goto('https://demo.playwright.dev/todomvc/#/');
 });
 
-test.only('Flaky', async ({page}) => {
+test.skip('Flaky', async ({page}) => {
     await page.goto('https://demo.playwright.dev/todomvc/#/');
 
 
