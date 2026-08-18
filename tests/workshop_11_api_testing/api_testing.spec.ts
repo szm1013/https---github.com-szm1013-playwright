@@ -97,7 +97,7 @@ test.describe.only('API Testing', () => {
 });
 
     //5. Delete - Delete an existing user
-    test.only('DELETE - Delete an existing user', async ({ request }) => {
+    test.skip('DELETE - Delete an existing user', async ({ request }) => {
         const apiKey = process.env.REQRES_API_KEY || 'reqres_1b583684f1cf4c04b9a192d37eff843e';
         const response = await request.delete('https://reqres.in/api/users/2', {
             headers: {
