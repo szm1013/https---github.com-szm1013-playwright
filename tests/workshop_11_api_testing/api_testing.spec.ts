@@ -28,7 +28,7 @@ test.describe.only('API Testing', () => {
     });
 
     //GET One user
-    test.skip('GET single user', async ({ request }) => {
+    test('GET single user', async ({ request }) => {
         const apiKey = process.env.REQRES_API_KEY || 'reqres_1b583684f1cf4c04b9a192d37eff843e';
         const response = await request.get('https://reqres.in/api/users/2', {
             headers: {
@@ -51,7 +51,7 @@ test.describe.only('API Testing', () => {
 });
 
     //3. POST - Create a new user
-    test.skip('POST - Create a new user', async ({ request }) => {
+    test('POST - Create a new user', async ({ request }) => {
         const apiKey = process.env.REQRES_API_KEY || 'reqres_1b583684f1cf4c04b9a192d37eff843e';
         const newUser = {"name": "Mihály Szilágyi","job": "QA Engineer", "email": "msz@reqres.in", "password": "jelszo"}
         const response = await request.post('https://reqres.in/api/users', {
@@ -74,7 +74,7 @@ test.describe.only('API Testing', () => {
     });
 
         //4. PUT - Update an existing user
-    test.skip('PUT - Update an existing user', async ({ request }) => {
+    test('PUT - Update an existing user', async ({ request }) => {
         const apiKey = process.env.REQRES_API_KEY || 'reqres_1b583684f1cf4c04b9a192d37eff843e';
         const updatedUser = {"name": "Mihály Szilágyi","job": "QA Engineer", "email": "msz@reqres.in", "password": "jelszo"}
         const response = await request.put('https://reqres.in/api/users/2', {
@@ -97,7 +97,7 @@ test.describe.only('API Testing', () => {
 });
 
     //5. Delete - Delete an existing user
-    test.skip('DELETE - Delete an existing user', async ({ request }) => {
+    test('DELETE - Delete an existing user', async ({ request }) => {
         const apiKey = process.env.REQRES_API_KEY || 'reqres_1b583684f1cf4c04b9a192d37eff843e';
         const response = await request.delete('https://reqres.in/api/users/2', {
             headers: {

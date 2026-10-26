@@ -1,0 +1,23 @@
+{
+  name: 'Mihály Szilágyi',
+  job: 'QA Engineer',
+  email: 'msz@reqres.in',
+  password: 'jelszo',
+  id: '664',
+  createdAt: '2026-10-26T12:29:02.205Z',
+  support: {
+    url: 'https://reqres.in/go/posthog',
+    text: 'PostHog ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it. Get started.',
+    sponsored_by: 'PostHog'
+  },
+  _meta: {
+    powered_by: 'ReqRes',
+    docs_url: 'https://app.reqres.in/documentation',
+    upgrade_url: 'https://app.reqres.in/upgrade',
+    example_url: 'https://app.reqres.in/examples/notes-app',
+    variant: 'v1_b',
+    message: 'This is a read-only demo endpoint. Sign up to create your own collections with full CRUD and auth.',
+    cta: { label: 'Get started', url: 'https://app.reqres.in/upgrade' },
+    context: 'legacy_success'
+  }
+}
